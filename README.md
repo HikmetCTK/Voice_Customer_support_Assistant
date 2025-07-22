@@ -46,11 +46,11 @@ This system plans meetings, give informations and makes sentiment analyzes.
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name ``
 
-* Windows:
+* Windows:Write in terminal
 ``
 uv add
 ``
-activate it 
+to  activate it 
 
 * install requirements.txt
   ``uv add -r requirements.txt``

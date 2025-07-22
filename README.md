@@ -39,6 +39,29 @@ This system plans meetings, give informations and makes sentiment analyzes.
 🔥 Torch (PyTorch)  
 🧠 Transformers
 
+## Usage 🕹️``
+
+* Clone repository
+``
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name ``
+
+* Windows:
+``
+uv add
+``
+activate it 
+
+* install requirements.txt
+  ``uv add -r requirements.txt``
+
+* Create .env file
+``GOOGLE_API_KEY=your_google_gemini_api_key
+ELEVENLABS_API_KEY=your_elevenlabs_api_key``
+
+*  Write this in terminal to run it
+  ``python main.py``
+
 ## Future Plans
 
 -Adding More Tools for special usecases e.g. 

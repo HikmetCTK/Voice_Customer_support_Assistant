@@ -41,5 +41,6 @@ This system plans meetings, give informations and makes sentiment analyzes.
 
 ## Future Plans
 
--More Functionality (writing more tools for LLM for special usecase)
+-Adding More Tools for special usecases e.g. 
+selling promotional tariffs,After-sales support
 

@@ -1,0 +1,4 @@
+SpeechRecognition
+pyaudio
+gTTS
+python-dotenv

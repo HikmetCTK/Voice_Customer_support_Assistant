@@ -64,6 +64,6 @@ ELEVENLABS_API_KEY=your_elevenlabs_api_key``
 
 ## Future Plans
 
--Adding More Tools for special usecases e.g. 
+* Adding More Tools for special usecases e.g. 
 selling promotional tariffs,After-sales support
-
+* integrating with livekit

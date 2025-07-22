@@ -21,7 +21,7 @@ This system plans meetings, give informations and makes sentiment analyzes.
 - 📊 **Sentiment Analysis**: Analyzes customer interactions and labels as positive neutral or negative thanks to saribasmetehan/bert-base-turkish-sentiment-analysis
 - 💾 **Database Integration**: Stores appointment dates, conversations and  sentiment analysis.
 
-## Sentiment analysis database picture 🎭
+## Sentiment analysis🎭
 ![sentiment analysis](https://github.com/user-attachments/assets/fc06e833-5590-4fb4-b64c-db208d983505)
 
 

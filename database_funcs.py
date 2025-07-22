@@ -18,7 +18,7 @@ def connect():
         return connection
     except pymysql.Error as e:
         logger.error(f"Veritabanı bağlantı hatası: {e}", exc_info=True)
-        raise  # Hatayı yukarı ilet
+        raise  # Hatayı yukarı iletmek için 
 
 
 def update_meeting_date(date: str) -> str:  # mcp fonksiyon
@@ -32,7 +32,7 @@ def update_meeting_date(date: str) -> str:  # mcp fonksiyon
         Randevunun başarıyla ayarlandığına veya ayarlanamadığına dair mesaj gönderir
     """
     try:
-        # Format kontrolü yapılıyor
+        # Format kontrolü 
         datetime.strptime(date, '%Y-%m-%d %H:%M:%S')
 
     except ValueError:
@@ -69,7 +69,7 @@ def update_meeting_date(date: str) -> str:  # mcp fonksiyon
 
 
 def get_customer_id():
-    return 53  # Örnek olarak sabit bir müşteri ID'si döndürüyoruz
+    return 53  # Örnek olarak sabit bir müşteri ID'si döndürüyoruz arayan numaradan id çekme işlemi yapılabilir
 
 
 # Varsayılan değer olarak get_customer_id() kullanılıyor

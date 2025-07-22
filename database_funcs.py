@@ -11,7 +11,7 @@ def connect():
         connection = pymysql.connect(
             host='localhost',
             user='root',
-            password="sql5858",
+            password="password",
             database='customer_service'
         )
         logger.info("Veritabanı bağlantısı başarılı")

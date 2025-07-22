@@ -1,4 +1,11 @@
-SpeechRecognition
-pyaudio
-gTTS
-python-dotenv
+elevenlabs>=2.7.1
+google-genai>=1.25.0
+gradio>=5.37.0
+openai-whisper>=20250625
+playsound3>=3.2.4
+pyaudio>=0.2.14
+pymysql>=1.1.1
+python-dotenv>=1.1.1
+speechrecognition>=3.14.3
+torch>=2.7.1
+transformers>=4.53.2

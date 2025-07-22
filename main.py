@@ -13,7 +13,7 @@ from database_funcs import customer_name, topic_name,update_meeting_date,get_ava
 from prompts import  CUSTOMER_SUPPORT2, CS3
 from speech2text import get_user_transcript
 from logger_config import logger
-from fastmcp import Client
+
 
 
 load_dotenv()  # ortam değişkenleri (elevenlabs, gemini)

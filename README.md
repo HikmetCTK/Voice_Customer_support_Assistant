@@ -43,8 +43,8 @@ This system plans meetings, give informations and makes sentiment analyzes.
 
 * Clone repository
 ``
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name ``
+git clone https://github.com/HikmetCTK/Voice_Customer_support_Assistant.git
+cd Voice_Customer_support_Assistant``
 
 * Windows:Write in terminal
 ``

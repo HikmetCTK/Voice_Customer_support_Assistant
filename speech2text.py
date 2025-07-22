@@ -2,18 +2,7 @@ import speech_recognition as sr
 import logging
 import audioop,wave
 import pyaudio
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-# Handler ve formatter eklemek iyi olur
-ch = logging.StreamHandler()
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-ch.setFormatter(formatter)
-logger.addHandler(ch)
-
-file_handler = logging.FileHandler('bot.log')
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
+from logger_config import logger
 
 
 def get_user_transcript():   

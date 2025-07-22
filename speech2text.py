@@ -34,7 +34,7 @@ def get_user_transcript():
         
 
 
-def get_user_transcript_and_save(self,
+def get_user_transcript_and_save(self,   # hem transkripti alıyor hem videoya kaydediyor.
                             threshold=100,
                             silence_limit=1,
                             rate=16000,

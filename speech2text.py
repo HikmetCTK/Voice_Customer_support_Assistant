@@ -76,7 +76,7 @@ def get_user_transcript_and_save(self,   # hem transkripti alıyor hem videoya k
                     if is_speaking:
                         silent_chunks += 1
                         frames.append(data)
-                        # Burada oluşan silent_chunks sayısını loglayabilirsiniz (DEBUG seviyesinde)
+                        # Burada oluşan silent_chunks sayısını loglayıp incelenebilir daha iyi parametre ayarları için.
                         # logger.debug(f"Silent chunks: {silent_chunks}, Threshold chunks: {rate / chunk * silence_limit}")
                         if silent_chunks > (rate / chunk * silence_limit):
                             logger.info("Konuşma bitti, işleniyor...")

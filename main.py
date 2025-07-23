@@ -36,7 +36,6 @@ class CustomerServiceBot:
                 logger.error("API_KEY ortam değişkeni bulunamadı.")
             else:
                 self.gemini_client = genai.Client(api_key=gemini_api_key)
-                print(self.gemini_client)
                 logger.info("Gemini istemcisi hazır.")
         except Exception as e:
             logger.error(f"Gemini istemcisi başlatılamadı: {e}", exc_info=True)

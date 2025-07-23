@@ -15,7 +15,7 @@ def get_user_transcript():
         #recognizer.adjust_for_ambient_noise(source, duration=0.5)  # Ortam gürültüsünü algıla
 
         logger.info("Dinleniyor...")
-        audio = recognizer.listen(source,timeout=5,phrase_time_limit=30)  # Sessizlik 5  saniye  olursa otomatik durur kullanıcıdan ses aldıktan sonra maks 30 saniye dinler.
+        audio = recognizer.listen(source,timeout=5,phrase_time_limit=30)  # Sessizlik(timeout) 5  saniye  olursa otomatik durur. phrase_time_limit= kullanıcıdan ses aldıktan sonra maks 30 saniye dinler.
 
         logger.info("Tanımlanıyor...")
         try:

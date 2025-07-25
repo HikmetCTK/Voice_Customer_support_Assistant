@@ -1,5 +1,6 @@
 # AI-Powered Voice Customer Support Assistant
-![Screenshot 2025-07-22 171722](https://github.com/user-attachments/assets/09a3b982-9d05-4ab9-8d27-e10092ee6eb3)
+![Workflow](https://github.com/user-attachments/assets/fc160859-fa83-4bbc-9daf-5a4a73f7d608)
+
 
 ## Demo Video
 

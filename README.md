@@ -15,7 +15,7 @@ This system plans meetings, give informations and makes sentiment analyzes.
 
 ## Features⚙️
 
-- 🎙️ **Voice **: Speech-to-text and text-to-speech capabilities
+- 🎙️ ** Voice **: Speech-to-text and text-to-speech capabilities
 - 🤖 **Gemini AI Integration**: Smart conversation handling with context awareness
 - 🗣️ **ElevenLabs Voice**: High-quality text-to-speech conversion
 - 📅 **Appointment Management**: Handles meeting scheduling

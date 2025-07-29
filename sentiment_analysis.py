@@ -1,4 +1,4 @@
-# Use a pipeline as a high-level helper
+# Kolay kullanım için pipeline 
 from transformers.pipelines import pipeline
 
 pipe = pipeline("text-classification", model="saribasmetehan/bert-base-turkish-sentiment-analysis")
@@ -6,7 +6,6 @@ pipe = pipeline("text-classification", model="saribasmetehan/bert-base-turkish-s
 def analyze_sentiment(text): # label 1 = positive, label 0 = nötr label 2 = negative
     result = pipe(text)
     return result
- # Örnek metin
 
 
 def categorize_sentiment(text):
